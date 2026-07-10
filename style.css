@@ -99,4 +99,40 @@ ul li a {
 }
 
 /* Meet the Speakers CSS */
+.speakers-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.speakers-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 30px;
+}
+.speakers-card-container img {
+    max-width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.speakers-card {
+    text-align: left;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 15px;    
+}
+.speakers-card h6, .speakers-card h3, .speakers-card p {
+    display: grid;
+    padding: px;
+    margin: 15px;
+}
 
+.speakers-card h6 {
+    font-size: 12px;
+    color: blue;
+}
+.speakers-card p {
+    font-size: 15px;
+    color: rgb(133, 133, 133);
+}
+.speakers-card h3 {
+    font-size: 22px;
+}
