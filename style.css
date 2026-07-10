@@ -40,6 +40,9 @@ img {
 header {
     background-color: aliceblue;
 }
+footer {
+    background-color: #0D1B2A;
+}
 
 .width-limit {
     max-width: 60%;
@@ -206,4 +209,8 @@ ul li a {
 .secure-spot-card-filled h4, .secure-spot-card h5 {
     color: rgb(138, 138, 138);
     font-weight: normal;
+}
+footer ul li a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
 }
