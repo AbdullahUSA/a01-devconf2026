@@ -21,6 +21,7 @@ img {
     text-decoration: none;
     color: white;
 }
+
 .outlined-btn {
     background-color: white;
     border: 1px solid rgb(43, 82, 255);
@@ -40,6 +41,7 @@ img {
 header {
     background-color: aliceblue;
 }
+
 footer {
     background-color: #0D1B2A;
 }
@@ -92,13 +94,14 @@ ul li a {
     gap: 20px;
 }
 
-.hero-content h1{
+.hero-content h1 {
     font-size: 80px;
     font-weight: 80px;
 }
-.hero-content p{
+
+.hero-content p {
     font-size: 20px;
-    font-weight: lighter; 
+    font-weight: lighter;
 }
 
 .hero-content .filled-btn {
@@ -108,7 +111,7 @@ ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;    
+    margin-top: 30%;
 }
 
 /* Meet the Speakers CSS */
@@ -117,22 +120,28 @@ ul li a {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .speakers-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 30px;
     gap: 30px;
 }
+
 .speakers-card-container img {
     max-width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
+
 .speakers-card {
     text-align: left;
     border: 1px solid rgb(170, 170, 170);
-    border-radius: 15px;    
+    border-radius: 15px;
 }
-.speakers-card h6, .speakers-card h3, .speakers-card p {
+
+.speakers-card h6,
+.speakers-card h3,
+.speakers-card p {
     display: grid;
     padding: px;
     margin: 15px;
@@ -142,10 +151,12 @@ ul li a {
     font-size: 12px;
     color: blue;
 }
+
 .speakers-card p {
     font-size: 15px;
     color: rgb(133, 133, 133);
 }
+
 .speakers-card h3 {
     font-size: 22px;
 }
@@ -156,65 +167,81 @@ ul li a {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .secure-spot-container p {
     color: rgb(158, 158, 158);
     padding: 10px;
 }
+
 .secure-spot-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 30px;
     gap: 30px;
 }
+
 .secure-spot-card {
     border: 1px solid rgb(170, 170, 170);
     border-radius: 15px;
     padding: 30px;
-    text-align: left;    
+    text-align: left;
 }
+
 .secure-spot-card-filled {
     background-color: #0D1B2A;
     border: 1px solid rgb(170, 170, 170);
     border-radius: 15px;
     padding: 30px;
-    text-align: left;    
+    text-align: left;
     color: white;
 }
+
 .secure-spot-card ul {
     display: grid;
-    gap: 20px;  
+    gap: 20px;
     margin: 20px;
 }
+
 .secure-spot-card-filled ul {
     display: grid;
-    gap: 20px;  
+    gap: 20px;
     margin: 20px;
 }
+
 .secure-spot-card .outlined-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
+
 .secure-spot-card-filled .filled-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.secure-spot-card h4, .secure-spot-card h5 {
+
+.secure-spot-card h4,
+.secure-spot-card h5 {
     color: rgb(138, 138, 138);
     font-weight: normal;
 }
-.secure-spot-card-filled h4, .secure-spot-card h5 {
+
+.secure-spot-card-filled h4,
+.secure-spot-card h5 {
     color: rgb(138, 138, 138);
     font-weight: normal;
 }
+
 footer ul li a {
     text-decoration: none;
     color: rgb(185, 185, 185);
 }
 
+#copyright-text {
+    color: rgb(185, 185, 185)
+}
 
 
 
@@ -240,7 +267,7 @@ footer ul li a {
     margin-bottom: 20px;
 }
 
-.hackathon-content > p {
+.hackathon-content>p {
     color: rgb(200, 200, 200);
     margin-bottom: 50px;
     line-height: 1.7;
@@ -254,7 +281,7 @@ footer ul li a {
 }
 
 .feature-box {
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgba(255, 255, 255, 0.08);
     padding: 25px;
     border-radius: 15px;
 }
@@ -271,13 +298,11 @@ footer ul li a {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 768px) {
 
-    .hackathon-features {
-        grid-template-columns: 1fr;
-    }
+.hackathon-features {
+    grid-template-columns: repeat(3, 1fr);
+}
 
-    .hackathon-content h1 {
-        font-size: 32px;
-    }
+.hackathon-content h1 {
+    font-size: 32px;
 }
